@@ -19,7 +19,24 @@
          align-items: baseline;
           align-items: stretch **
     */
-    justify-content: center;
-    height: 250px;
-    align-items: center;
+   
+}
+
+
+/* 
+flex-basis : dùng cho các đối tượng con, căn chỉnh độ rộng 
+flex-grow: 1; 
+
+*/
+.child-1{
+    background-color: red;
+    flex-grow: 3;
+}
+.child-2{
+    background-color: green;
+    flex-grow: 3;
+}
+.child-3{
+    background-color: blue;
+    flex-grow: 6;
 }
