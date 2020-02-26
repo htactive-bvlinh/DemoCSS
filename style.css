@@ -1,4 +1,25 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: aqua;
+    /*  
+    dùng cho flex-direction: columns;
+            justify-content: start;  căn chỉnh qua lền bên phải 
+                        end; căn chỉnh qua lề bên trái 
+                        center; căn giữa
+                        space-betwin ; chia đề khoản cách ra, không có khoản cách bên trái và phải
+                        space-around; chia đều khoản cách , có lề bên trái và phải
+    */
+     
+    /*
+     căn chỉnh theo chiều vuông góc;
+        align-items: flex-star; **
+         align-items: flex-end;
+          align-items: center;
+         align-items: baseline;
+          align-items: stretch **
+    */
+    justify-content: center;
+    height: 250px;
+    align-items: center;
 }
